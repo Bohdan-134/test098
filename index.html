@@ -13,8 +13,43 @@
     <link rel="stylesheet" href="assets/css/lineicons.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+      .flag-icon {
+        font-size: 100px;
+        line-height: 90px;
+      }
+      .single-feature-extended {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+      }
+      #contact {
+        margin-bottom: 120px;
+      }
+    </style>
   </head>
   <body>
+
+    <!-- ======== preloader start ======== -->
+    <div class="preloader">
+      <div class="loader">
+        <div class="spinner">
+          <div class="spinner-container">
+            <div class="spinner-rotator">
+              <div class="spinner-left">
+                <div class="spinner-circle"></div>
+              </div>
+              <div class="spinner-right">
+                <div class="spinner-circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- preloader end -->
 
     <!-- ======== header start ======== -->
     <header class="header">
@@ -58,7 +93,7 @@
                       <a class="page-scroll" href="#why">ГЕО</a>
                     </li>
                     <li class="nav-item">
-                      <a href="javascript:void(0)">КОНТАКТИ</a>
+                      <a class="page-scroll" href="#contact">КОНТАКТИ</a>
                     </li>
                     <li class="nav-item">
                       <a href="javascript:void(0)">РЕЄСТРАЦІЯ</a>
@@ -83,7 +118,7 @@
                 МОНОЛІД
               </h1>
               <p class="wow fadeInUp" data-wow-delay=".6s">
-                — ЯКІСТЬ ЯКА ДАЄ РЕЗУЛЬТАТ
+                — ЯКІСТЬ, ЯКА ДАЄ РЕЗУЛЬТАТ
               </p>
               <a href="#features" class="main-btn border-btn btn-hover wow fadeInUp" data-wow-delay=".6s">
                 Дізнатися більше
@@ -110,12 +145,12 @@
           <div class="col-lg-4 col-md-8 col-sm-10">
             <div class="single-feature">
               <div class="icon">
-                <i class="lni lni-bootstrap"></i>
+                <i class="lni lni-image"></i>
               </div>
               <div class="content">
                 <h3>КРАЩІ АВТОРСЬКІ ПРОМО</h3>
                 <p>
-                  Тільки якісні і перевірені авторські промо з актуальними фото та свіжими історіями що конвертять.
+                  Тільки якісні і перевірені авторські промо з актуальними фото та свіжими історіями, що конвертять.
                 </p>
               </div>
             </div>
@@ -123,7 +158,7 @@
           <div class="col-lg-4 col-md-8 col-sm-10">
             <div class="single-feature">
               <div class="icon">
-                <i class="lni lni-layout"></i>
+                <i class="lni lni-empty-file"></i>
               </div>
               <div class="content">
                 <h3>ОФЕРИ З МАКСИМАЛЬНИМ КОНВЕРТОМ</h3>
@@ -136,7 +171,7 @@
           <div class="col-lg-4 col-md-8 col-sm-10">
             <div class="single-feature">
               <div class="icon">
-                <i class="lni lni-coffee-cup"></i>
+                <i class="lni lni-headphone"></i>
               </div>
               <div class="content">
                 <h3>ПІДТРИМКА 24/7</h3>
@@ -149,7 +184,7 @@
           <div class="col-lg-4 col-md-8 col-sm-10">
             <div class="single-feature">
               <div class="icon">
-                <i class="lni lni-money-location"></i>
+                <i class="lni lni-database"></i>
               </div>
               <div class="content">
                 <h3>ВИСОКІ СТАВКИ</h3>
@@ -182,7 +217,7 @@
                   ЯКІСНІ ОФЕРИ — БУСТЕР ТВОГО УСПІХУ
                 </h2>
                 <p class="wow fadeInUp" data-wow-delay=".4s">
-                  Завдяки багаторічній експертизі в сфері нутри ми вибираємо для роботи тільки ті офери які дають максимальний конверт і закріплюємо ваш результат авторськими актуальними промо.
+                  Завдяки багаторічній експертизі в сфері нутри, ми вибираємо для роботи тільки ті офери, які дають максимальний конверт і закріплюємо ваш результат авторськими актуальними промо.
                 </p>
               </div>
               <a href="javascript:void(0)" class="main-btn btn-hover border-btn wow fadeInUp" data-wow-delay=".6s">
@@ -212,49 +247,39 @@
           <div class="row">
             <div class="col-lg-4 col-md-6">
               <div class="single-feature-extended">
-                <div class="icon">
-                  <i class="lni lni-map-marker"></i>
-                </div>
+                <span class="flag-icon">🇷🇴</span>
                 <div class="content">
-                  <h3>Румунія 🇷🇴</h3>
+                  <h3>Румунія</h3>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="single-feature-extended">
-                <div class="icon">
-                  <i class="lni lni-map-marker"></i>
-                </div>
+                <span class="flag-icon">🇨🇿</span>
                 <div class="content">
-                  <h3>Чехія 🇨🇿</h3>
+                  <h3>Чехія</h3>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="single-feature-extended">
-                <div class="icon">
-                  <i class="lni lni-map-marker"></i>
-                </div>
+                <span class="flag-icon">🇸🇰</span>
                 <div class="content">
-                  <h3>Словакія 🇸🇰</h3>
+                  <h3>Словакія</h3>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="single-feature-extended">
-                <div class="icon">
-                  <i class="lni lni-map-marker"></i>
-                </div>
+                <span class="flag-icon">🇭🇺</span>
                 <div class="content">
-                  <h3>Угорщина 🇭🇺</h3>
+                  <h3>Угорщина</h3>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="single-feature-extended">
-                <div class="icon">
-                  <i class="lni lni-rocket"></i>
-                </div>
+                <span class="flag-icon">🚀</span>
                 <div class="content">
                   <h3>SOON… +1 новий tier</h3>
                 </div>
@@ -271,107 +296,37 @@
       <div class="container">
         <div class="subscribe-wrapper img-bg">
           <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-7">
-              <div class="section-title mb-15">
-                <h2 class="text-white mb-25">Ми на зв'язку 24/7</h2>
-                <p class="text-white pr-5">
+            <div class="col-xl-12">
+              <div class="section-title mb-25">
+                <h2 class="text-white mb-15 text-center">Ми на зв'язку 24/7</h2>
+                <p class="text-white text-center pr-5">
                   Професійний саппорт та індивідуальна підтримка на кожному етапі взаємодії.
                 </p>
               </div>
             </div>
-            <div class="col-xl-6 col-lg-5">
-              <form action="#" class="subscribe-form">
-                <input type="text" name="name" id="name" placeholder="Ваше Им'я" required />
-                <textarea name="message" id="message" rows="4" placeholder="Ваше повідомлення" required></textarea>
-                <button type="submit" class="main-btn btn-hover">Отправить</button>
-              </form>
+            <div class="col-xl-12">
+              <div class="contact-links text-center">
+                <div class="row justify-content-center">
+                  <div class="col-xl-1 col-md-2 col-xs-6">
+                    <a href="https://t.me/your_telegram_username" class="contact-link d-flex flex-column align-items-center">
+                      <i class="lni lni-telegram mb-2" style="font-size: 2rem; color: #fff;"></i>
+                      <span style="color: #fff;">Telegram</span>
+                    </a>
+                  </div>
+                  <div class="col-xl-1 col-md-2 col-xs-6">
+                    <a href="mailto:your_email@example.com" class="contact-link d-flex flex-column align-items-center">
+                      <i class="lni lni-envelope mb-2" style="font-size: 2rem; color: #fff;"></i>
+                      <span style="color: #fff;">Email</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- ======== contact-section end ======== -->
-
-    <!-- ======== footer start ======== -->
-    <footer class="footer">
-      <div class="container">
-        <div class="widget-wrapper">
-          <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-6">
-              <div class="footer-widget">
-                <div class="logo mb-30">
-                  <a href="index.html">
-                    <img src="assets/img/logo/logo.svg" alt="" />
-                  </a>
-                </div>
-                <p class="desc mb-30 text-white">
-                  Ми прагнемо забезпечити якість, яка дає результат.
-                </p>
-                <ul class="socials">
-                  <li>
-                    <a href="jvascript:void(0)">
-                      <i class="lni lni-facebook-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="jvascript:void(0)">
-                      <i class="lni lni-twitter-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="jvascript:void(0)">
-                      <i class="lni lni-instagram-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="jvascript:void(0)">
-                      <i class="lni lni-linkedin-original"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-xl-2 col-lg-2 col-md-6">
-              <div class="footer-widget">
-                <h3>Про Нас</h3>
-                <ul class="links">
-                  <li><a href="javascript:void(0)">Головна</a></li>
-                  <li><a href="javascript:void(0)">Переваги</a></li>
-                  <li><a href="javascript:void(0)">Оферти</a></li>
-                  <li><a href="javascript:void(0)">Відгуки</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-6">
-              <div class="footer-widget">
-                <h3>Контакти</h3>
-                <ul class="links">
-                  <li><a href="javascript:void(0)">Як це працює</a></li>
-                  <li><a href="javascript:void(0)">Політика конфіденційності</a></li>
-                  <li><a href="javascript:void(0)">Умови обслуговування</a></li>
-                  <li><a href="javascript:void(0)">Політика повернення</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-6">
-              <div class="footer-widget">
-                <h3>Інші продукти</h3>
-                <ul class="links">
-                  <li><a href="jvascript:void(0)">Accounting Software</a></li>
-                  <li><a href="jvascript:void(0)">Billing Software</а></li>
-                  <li><a href="jvascript:void(0)">Booking System</a></li>
-                  <li><a href="jvascript:void(0)">Tracking System</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- ======== footer end ======== -->
 
     <!-- ======== scroll-top ======== -->
     <a href="#" class="scroll-top btn-hover">
