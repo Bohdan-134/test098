@@ -732,7 +732,7 @@ p {
 .navbar-nav .nav-item a::before {
   content: "";
   position: absolute;
-  height: 5px;
+  height: 2px;
   width: 0;
   border-radius: 16px;
   background: #fdd446;
@@ -789,7 +789,7 @@ p {
 }
 
 .hero-section .hero-content h1 {
-  font-size: 60px;
+  font-size: 120px;
   margin-bottom: 35px;
   color: #fff;
 }
@@ -820,7 +820,7 @@ p {
 
 .hero-section .hero-content p {
   margin-bottom: 40px;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 28px;
   color: #fff;
 }
@@ -838,7 +838,7 @@ p {
 }
 
 .hero-section .hero-content .main-btn {
-  border-color: #fff;
+  border-color: #fdd446;
   color: #fff;
 }
 
