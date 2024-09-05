@@ -228,7 +228,7 @@ p {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  padding: 18px 38px;
+  padding: 20px 80px;
   font-size: 18px;
   border-radius: 50px;
   color: #fff;
@@ -709,7 +709,6 @@ p {
 
 .navbar-nav .nav-item {
   position: relative;
-  margin-left: 40px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
